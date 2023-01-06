@@ -1,0 +1,47 @@
+{
+  "name": "@masterclass/tradingview-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "author": "Mikołaj Palkiewicz <mikolaj@nersent.com>",
+  "prettier": "@nersent/prettier-config",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development tsc-watch --onSuccess \"node build/src/index.js\""
+  },
+  "devDependencies": {
+    "@nersent/eslint-config-ts": "^0.1.0",
+    "@nersent/prettier-config": "^0.1.0",
+    "@types/node": "^18.11.12",
+    "@types/progress": "^2.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "cross-env": "^7.0.3",
+    "env-cmd": "^10.1.0",
+    "eslint": "^8.13.0",
+    "eslint-config-next": "12.1.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.4.0",
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.7.0-dev.20220225"
+  },
+  "dependencies": {
+    "@mathieuc/tradingview": "^3.3.3",
+    "@nersent/event-emitter": "^1.0.0-dev.1",
+    "@nersent/lambda-fun": "^1.0.0-dev.2",
+    "chalk": "^4.1.2",
+    "concurrently": "^7.3.0",
+    "csv-reader": "^1.0.10",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "execa": "^5.1.0",
+    "playwright": "^1.29.1",
+    "progress": "^2.0.3",
+    "rimraf": "^3.0.2",
+    "tslib": "^2.4.1"
+  }
+}
