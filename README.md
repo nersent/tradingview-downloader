@@ -39,5 +39,5 @@ yarn
 Go to `src/list.ts` and edit `TRADINGVIEW_DOWNLOAD_LIST` array
 
 - `name` is your custom name for this asset like BTC_OLCHV_4H
-- `chartId` is a value for custom layout id from `https://tradingview.com/chart/{chartId}/?symbol=${symbolName}
+- `chartId` is a value for custom layout id from `https://tradingview.com/chart/{chartId}/?symbol=${symbolName}`
 - `symbol` is a symbol name of given asset
