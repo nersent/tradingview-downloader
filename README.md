@@ -16,7 +16,7 @@ npm install yarn --global
 
 ### 2. Install Node.js dependencies
 
-Open cmd at the root of this project
+Open shell at the root of this project
 
 ```bash
 yarn
