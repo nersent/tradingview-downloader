@@ -2,6 +2,7 @@
 
 ## Prerequisites
 
+- TradingView Premium Account
 - [Node.js](https://nodejs.org/en/) min v16
 
 ## How to install
